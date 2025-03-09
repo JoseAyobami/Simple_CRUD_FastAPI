@@ -20,11 +20,12 @@ This is a simple RESTful API built with FastAPI to manage student records. It su
    python -m venv venv
 2.  # On Windows(Powershell): venv\Scripts\activate
     # On Linux/Mac:  source venv/bin/activate
+    
 3. ## Install dependencies
    pip install fastapi
    pip install uvicorn 
    
-5. ## Run your FastAPI
+4. ## Run your FastAPI
    uvicorn main:app --reload
     
    
