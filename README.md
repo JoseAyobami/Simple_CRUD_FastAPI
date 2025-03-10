@@ -25,12 +25,12 @@ This is a simple RESTful API built with FastAPI to manage student records. It su
 ## Create a environment
 2. - On macOS/Linux:
    ```bash
-   python3 -m venv venv
+   python3 -m venv env
    ```
 
    - On Windows:
    ```bash
-   python -m venv venv
+   python -m venv env
    ```
 
 
