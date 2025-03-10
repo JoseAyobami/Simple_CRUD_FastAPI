@@ -19,6 +19,7 @@ This is a simple RESTful API built with FastAPI to manage student records. It su
    ```sh
    git clone <git clone https://github.com/JoseAyobami/Simple_CRUD_FastAPI.git>
    cd <cd Simple_CRUD_FastAPI>
+   ```
 
 
 ## Create a environment
@@ -28,19 +29,26 @@ This is a simple RESTful API built with FastAPI to manage student records. It su
    ```
 
    - On Windows:
-  ```bash
-  python -m venv venv
-  ```
+   ```bash
+   python -m venv venv
+   ```
 
 
-3.  ## Run your virtual environment
-   On Windows(Powershell): venv\Scripts\activate
-   On Linux/Mac:  source venv/bin/activate
+3.  ## Activate your virtual environment
+   ```sh
+   On Windows: 
+   env/Scripts/activate
+   ```
+   
+   ```bash
+   On Linux/Mac:  
+   source env/bin/activate
+   ```
 
 
 4. ## Install dependencies
-   pip install fastapi
-   pip install uvicorn 
+   - pip install fastapi
+   - pip install uvicorn 
 
    
 5. ## Run your FastAPI
